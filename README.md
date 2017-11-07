@@ -37,31 +37,31 @@ Dans la section **«&nbsp;Aide&nbsp;»** ci-dessous se trouve quelques rappels u
 
 ## Voici les 7 rendus des différentes pages une fois l'exercice terminé.
 
-### Rendu de **index.html**
+### Rendu de index.html
 
 ![rendu index.html](./renduIndex.png)
 
-### Rendu de **bases.html**
+### Rendu de bases.html
 
 ![rendu bases.html](./renduBases.png)
 
-### Rendu de **li_mains_poker.html**
+### Rendu de li_mains_poker.html
 
 ![rendu li_mains_poker.html](./renduLi_mains_poker.png)
 
-### Rendu de **li_symptomes.html**
+### Rendu de li_symptomes.html
 
 ![rendu li_symptomes.html](./renduLi_symptomes.png)
 
-### Rendu de **li_rues.html**
+### Rendu de li_rues.html
 
 ![rendu li_rues.html](./renduLi_rues.png)
 
-### Rendu de **li_dfn_web.html**
+### Rendu de li_dfn_web.html
 
 ![rendu li_dfn_web.html](./renduLi_dfn_web.png)
 
-### Rendu de **li_dfn_info.html**
+### Rendu de li_dfn_info.html
 
 ![rendu li_dfn_info.html](./renduLli_dfn_info.png)
 
@@ -69,11 +69,11 @@ Dans la section **«&nbsp;Aide&nbsp;»** ci-dessous se trouve quelques rappels u
 
 ## Voici les rendus au survol des items de menus qui font apparaître un sous-menu.
 
-### Rendu de **index.html au survol de l'item &laquo;&nbsp;Exemples de listes&nbsp;&raquo; **
+### Rendu de index.html au survol de l'item &laquo;&nbsp;Exemples de listes&nbsp;&raquo;
 
 ![rendu de index.html au survol du sous-menu](./renduIndexSurvol1.png)
 
-### Rendu de **index.html au survol de l'item &laquo;&nbsp;Glossaires&nbsp;&raquo; **
+### Rendu de index.html au survol de l'item &laquo;&nbsp;Glossaires&nbsp;&raquo;
 
 ![rendu index.html au survol du sous-sous-menu](./renduIndexSurvol2.png)
 
