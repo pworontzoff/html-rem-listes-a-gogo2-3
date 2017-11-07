@@ -1,0 +1,175 @@
+@import url("reset.css");
+.skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+    
+a.skip:active, a.skip:focus, a.skip:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
+}
+html{
+    background-color: #F1F1F1;
+}
+body{
+    font: 16px/1.5  Bentham, Baskerville, "Baskerville Old Face", "Times New Roman", Times, serif;
+    color: #333;
+    width: 75em;
+    margin: auto;
+    background-color: white;
+}
+header, footer{
+background-color: #F1F1F1;
+}
+main{
+    padding: 2em 2em 0 2em;
+}
+i {
+font-weight: bold;
+}
+main>ol{
+    margin: 1em;
+    padding: 1em;
+}
+main ol>li{
+    margin: 2em;
+    list-style-type: decimal;
+}
+main ul>li{
+    margin: 2em;
+    list-style-type: disc;
+}
+main ul>li ul>li{
+    margin: 2em;
+    list-style-type: circle;
+}
+main ul>li ul>li ul>li{
+    margin: 2em;
+    list-style-type: square;
+}
+main dl>dt{
+    font-weight: bold;
+}
+main dl>dd{
+    margin: 1em;
+}
+main dd+dt{
+    margin-top: 2em;
+}
+main#bases ul>li{
+    margin-left: 6em;
+}
+main#bases section article{
+    float: left;
+    width: 30%;
+    border-left: thin solid #4CAF50;
+    padding-left: 1em;
+}
+main#bases section:first-child article:last-child{
+    margin-top: 2em;
+    clear: left;
+    width: 100%;
+    border-left: none;
+    text-align: center;
+}
+main#bases ol>li{
+    list-style-type: none;
+}
+figure{
+    height: 321px;
+}
+nav ul, footer p{
+    margin: 0 auto;
+}
+p{
+    margin: 1em 0;
+}
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    margin: 1em 0;
+}
+nav h2{
+    display: none;
+}
+h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+nav ul{
+    font-size: 2em;
+    font-weight: bold;
+    height: 1.5em;
+    line-height: 1.5em;
+    background-color: #4CAF50;
+    outline: thin solid white;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 0.2em;
+}
+nav ul>li{
+    float: left;
+    border-left: thick solid #4CAF50;
+    border-right: thick solid #4CAF50;
+}
+nav ul>li:hover, nav ul>li.current{
+    background-color: rgb(96,96,96);
+    border-left-color: white;
+    border-right-color: white;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 1em;
+}
+nav ul a[href="#"]{ /* les items de menus non cliquables */
+    cursor: default;
+}
+nav ul li:not([class="current"]) a[href="#"]:after{ /* les items de menus non cliquables et non courants*/
+    content: "...";
+}
+nav ul>li>ul{ /* sous-menu */
+    font-size: 0.8em;
+    position: absolute;
+    top: 1.8em;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+nav ul>li>ul>li>ul>li:first-child{ /* item de sous-menu */
+    margin-left : 34.85em;
+}
+nav ul>li:hover>ul, nav ul>li.current>ul /* pour les sous-listes(les sous-menus) dont les parents li (les menus) de la liste "menu" sont survolés ou "current"*/
+{
+visibility: visible; /* la boîte css est rendue visible */
+}
+footer{
+    padding: 2em 0;
+}
+footer p{
+    font-size: 0.8em;
+    text-align: right;
+    font-style: italic;
+}
+footer a{
+    color: black;
+    font-style: normal; 
+}
