@@ -63,7 +63,7 @@ Dans la section **«&nbsp;Aide&nbsp;»** ci-dessous se trouve quelques rappels u
 
 ### Rendu de li_dfn_info.html
 
-![rendu li_dfn_info.html](./renduLli_dfn_info.png)
+![rendu li_dfn_info.html](./renduLi_dfn_info.png)
 
 * * *
 
