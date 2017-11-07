@@ -87,7 +87,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 	1. juste après la balise `h1`, ajouter une balise `nav` pour contenir la liste non ordonnée qui sera notre menu horizontal&nbsp;;
 	
-	2. lui ajouter tout d'abord une balise `h2` (car `nav` est sectionnante et appelle donc un titre, de niveau 2 dans notre cas) avec pour texte **Menu principal**
+	2. lui ajouter tout d'abord une balise `h2` (car `nav` est sectionnante et appelle donc un titre, de niveau 2 dans notre cas) avec pour texte **Menu principal**&nbsp;;
     
 	3. ajouter une liste non ordonnée avec attribut d'accessibilité `role="menubar"` et 3 items de listes **Introduction**, **Les bases théoriques** et **Exemples de listes**&nbsp;;
 
@@ -205,7 +205,7 @@ a. un chemin relatif est toujours relatif au dossier du fichier dans lequel on e
 b. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier **fichB.html** qui se trouve dans le même dossier que **fichA.html**&nbsp;:
 
 ```html
-    <a href="./fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="./fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 - en effet, dans un chemin relatif&nbsp;: le `.` désigne le &laquo;&nbsp;dossier courant&nbsp;&raquo; (du fichier dans lequel on ajoute une balise `a`)&nbsp;;
@@ -215,7 +215,7 @@ b. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier 
 c. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier **fichB.html** qui se trouve dans un sous-dossier **sd**&nbsp;:
 
 ```html
-    <a href="./sd/fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="./sd/fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 - en effet, dans un chemin relatif&nbsp;: le `/` signifie qu'on doit accéder au sous-dossier spécifier juste après (le `/`)&nbsp;;
@@ -226,7 +226,7 @@ c. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier 
 d. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier **fichB.html** qui se trouve dans le dossier parent&nbsp;:
 
 ```html
-    <a href="../fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="../fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 - en effet, dans un chemin relatif&nbsp;: les `..` désigne le &laquo;&nbsp;dossier parent&nbsp;&raquo;&nbsp;;
@@ -237,7 +237,7 @@ d. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier 
 e. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier **fichB.html** qui se trouve dans un autre dossier **ad**, situé à côté du dossier de **fichA.html**&nbsp;:
 
 ```html
-    <a href="../ad/fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="../ad/fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 - le chemin `../ad/fichB.html` peut donc se lire &laquo;&nbsp;partant du dossier dans lequel se trouve le fichier dans lequel se lien est écrit, on remonte au dossier parent de ce dossier et l'on y cherche le dossier **ad** dans lequel on cherche le fichier **fichB.html**&nbsp;&raquo;&nbsp;;
@@ -246,11 +246,11 @@ e. pour créer, dans un fichier **fichA.html**, un lien relatif vers un fichier 
 f. on peut remonter et redescendre (et donc se &laquo;&nbsp;balader&nbsp;&raquo;) dans une arborescence facilement avec `.`, `/` et `..`&nbsp;; par exemples&nbsp;:
 
 ```html
-    <a href="../../dossX/dossY/fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="../../dossX/dossY/fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 ```html
-    <a href="./sousdoss1/sousdoss2/fichB.html" title="Visiter le fichier &laquo;&nbsp;B&nbsp;&raquo;">Fichier &laquo;&nbsp;B&nbsp;&raquo;</a> 
+    <a href="./sousdoss1/sousdoss2/fichB.html" title="Visiter le fichier B">Fichier B</a> 
 ```
 
 #### 2. 2. Les images d'illustrations&nbsp;:
