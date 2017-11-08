@@ -22,7 +22,7 @@ html{
 body{
     font: 16px/1.5  Bentham, Baskerville, "Baskerville Old Face", "Times New Roman", Times, serif;
     color: #333;
-    width: 75em;
+    width: 82em;
     margin: auto;
     background-color: white;
 }
@@ -155,7 +155,7 @@ nav ul>li>ul{ /* sous-menu */
     visibility: hidden;
 }
 nav ul>li>ul>li>ul>li:first-child{ /* item de sous-menu */
-    margin-left : 34.85em;
+    margin-left : 39em;
 }
 nav ul>li:hover>ul, nav ul>li.current>ul /* pour les sous-listes(les sous-menus) dont les parents li (les menus) de la liste "menu" sont survolés ou "current"*/
 {
