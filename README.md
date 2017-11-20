@@ -16,4 +16,4 @@
 
 ## Listes à gogo 2/3
 
-Voici une solution de cet énoncé !
+Voici une solution de cet énoncé&nbsp;!
